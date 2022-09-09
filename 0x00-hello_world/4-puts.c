@@ -13,10 +13,8 @@
  *     */
 
 int main(void)
-
 {
 	    char new_string[] = "\"Programming is like building a multilingual puzzle";
 	    puts(new_string);
 	    return (0);
-
 }
