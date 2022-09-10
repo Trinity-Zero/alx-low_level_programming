@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
-* main - Prints 3 combination of numbers
-*
-* Return: Always (Success)
-*/
+ * main - Print 3 combination of numbers
+ *
+ * Return: Always (Success)
+ */
 int main(void)
 {
-	int c, i, j, k;
+	int c, i, k, j;
 
 	for (c = 48; c <= 57; c++)
 	{
@@ -25,23 +25,18 @@ int main(void)
 						putchar(k);
 						putchar(j);
 
-	if (c + i + k + j == 227 && c == 57)
-						{
-						break;
-						}
-	else
-						{
-						putchar(',');
-						putchar(' ');
-						}
-						}
+					if (c + i + k + j == 227 && c == 57)
+					{
+					break;
+					}
+					else
 					}
 				}
 			}
 		}
-	putchar('\n');
+	}
 
-	return (0);
+putchar('\n');
 
+return (0);
 }
-
