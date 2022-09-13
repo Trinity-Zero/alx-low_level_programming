@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 
 /**
 * jack_bauer - Function to print every minute of Jack Bauer
