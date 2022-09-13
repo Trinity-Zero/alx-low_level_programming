@@ -7,7 +7,7 @@
 */
 void print_alphabet(void)
 {
-	char ii;
+	int ii;
 
 	for (ii = 'a'; ii <= 'Z'; ii++)
 	{
