@@ -2,6 +2,7 @@
 
 /**
 * _abs - Function that computes the absolute value of an integer
+* @n: Number to be checked
 *
 * Return: Absolute value of n
 */
