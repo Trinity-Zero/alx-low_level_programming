@@ -1,4 +1,4 @@
-#include "main.h"
+i#include "main.h"
 
 /**
 * jack_bauer - Function to print every minute of Jack Bauer
@@ -7,7 +7,7 @@
 */
 void jack_bauer(void)
 {
-	int hour, minute, first_hour, last_hour, first_minure, last_minute;
+	int hour, minute, first_hour, last_hour, first_minute, last_minute;
 
 	for (hour = 0; hour < 24; hour++)
 	{
