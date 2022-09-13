@@ -1,12 +1,12 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
-* main - Entry point
-* Return: Always 0 (Success)
+* main - Print program that prints _putchar
+*
+* Result: Always 0
 */
-int main(void)
 {
-	_putchar;
-	printf("_putchar\n")
-		return;
+	_putchar("_");
+
+	return (0);
 }
