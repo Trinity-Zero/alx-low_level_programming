@@ -1,11 +1,11 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
 * main - Entry point
 *
 * Return: Always zero
 */
-int main()
+int main(void)
 {
        long a = 1;
        long b = 2;
