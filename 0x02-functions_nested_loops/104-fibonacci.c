@@ -1,22 +1,26 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
-* main - Entry point
+* main - main block
 *
-* Return: Always zero
+* Return: 0
 */
 int main(void)
 {
-       int i;
+	int i = 0;
+	unsigned long int a = 0, b = 1, next = 0;
 
-       for (i = 3; i <= 98; i++)
-       {
+	while (i < 98)
+	{
+		next = a + b;
+		a = b;
+		b = next;
+		printf("%lu", next);
 
-               if (i < 98)
-                       printf(",");
-               else
-                       printf("\n");
+		if (i < 97)
+			printf(", ");
+		i++;
 	}
-
-	return (0);
+	putchar('\n');
+	return (0);
 }
