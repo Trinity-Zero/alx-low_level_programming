@@ -5,7 +5,7 @@
 *
 * Return: Always zero
 */
-int main(void)
+int main()
 {
        long a = 1;
        long b = 2;
