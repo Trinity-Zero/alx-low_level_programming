@@ -28,9 +28,9 @@ void puts_half(char *str)
 	}
 	else
 	{
-		int half = (count -1) / 2;
+		int half = (count - 1) / 2;
 
-		for (half += 1; half <= count; half ++)
+		for (half += 1; half <= count; half++)
 			_putchar(str[half]);
 	}
 
