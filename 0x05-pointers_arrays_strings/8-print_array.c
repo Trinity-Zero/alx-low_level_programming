@@ -14,7 +14,7 @@ void print_array(int *a, int n)
 	int i;
 	int times;
 
-	time = n - 1;
+	times = n - 1;
 
 	for (i = 0; i <= times; i++)
 	{
@@ -24,5 +24,5 @@ void print_array(int *a, int n)
 			printf(", ");
 	}
 
-	printf('\n');
+	printf("\n");
 }
