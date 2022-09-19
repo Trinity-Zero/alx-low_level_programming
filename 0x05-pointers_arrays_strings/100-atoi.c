@@ -21,7 +21,7 @@ int _atoi(char *s)
 		if (*s >= '0' && *s <= '9')
 		{
 			check = 1;
-			total * 10 + *s - '0';
+			total = total * 10 + *s - '0';
 		}
 		else if (*s < '0' || *s >= '9')
 		{
