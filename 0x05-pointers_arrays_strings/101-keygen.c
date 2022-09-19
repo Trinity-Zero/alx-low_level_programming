@@ -11,7 +11,6 @@
 int main(void)
 {
 	int myrand;
-	int count;
 	int total;
 
 	srand(time(NULL));
