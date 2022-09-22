@@ -21,7 +21,7 @@ char *_strncat(char *dest, char *src, int n)
 		total1++;
 		a++;
 	}
-	
+
 	while (total2 < n)
 	{
 		all[a] =  src[total2];
