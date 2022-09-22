@@ -7,7 +7,7 @@
 * @src: Source
 * @n: Limit
 *
-* Return: Destination
+* Return: destination
 */
 
 char *_strncat(char *dest, char *src, int n)
