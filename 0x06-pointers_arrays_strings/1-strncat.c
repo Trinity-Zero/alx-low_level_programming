@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-* _strncat - Concatenate two strings
+* _strncat - Concatenates two strings
 * @dest: Destination
 * @src: Source
 * @n: Limit
@@ -18,7 +18,7 @@ char *_strncat(char *dest, char *src, int n)
 	while (dest[total1] != '\0')
 	{
 		all[a] = dest[total1];
-		total++;
+		total1++;
 		a++;
 	}
 	
