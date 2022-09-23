@@ -15,25 +15,25 @@ char *_strncat(char *dest, char *src, int n)
 	int total1 = 0, total2 = 0, a = 0, b = 0, i = 0;
 	char all[10000];
 
-	while (dest[total1] != '\0')
+	while (dest[total] != '\0')
 	{
-		all[a] = dest[total1];
-		total1++;
+		all[a] = dest[total];
+		total++;
 		a++;
 	}
 
 	while (total2 < n)
 	{
-		all[a] =  src[total2];
+		all[a] = src[total2];
 		total2++;
 		a++;
 	}
 
 	while (all[b] != '\0')
 	{
-		dest[i] = all[a];
+		dest[i] = all[b];
 		i++;
-		a++;
+		b++;
 	}
 
 	return (dest);
