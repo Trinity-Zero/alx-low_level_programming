@@ -18,7 +18,7 @@ int _strlen_recursion(char *s)
 }
 
 /**
-* check_palidrome - Recursively check if the string is palindrome
+* check_palindrome - Recursively check if the string is palindrome
 * @a: counter 1
 * @b: Total counter
 * @s: String
