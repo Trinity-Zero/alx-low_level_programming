@@ -3,13 +3,13 @@
 #include <ctype.h>
 
 /**
-* coins_check for coins
-* @cent: input
+* coins_check - check for coins
+* @cents: input
 *
 * Return: coins count
 */
 
-int coins_check(int cent)
+int coins_check(int cents)
 {
 	int coins = 0, a = 25, b = 10, c = 5, d = 2, e = 1;
 	while (cents > 0)
@@ -71,7 +71,7 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		cent = atoi(argv[1]);
+		cents = atoi(argv[1]);
 		coins = coins_check(cents);
 		printf("%d\n", coins);
 	}
