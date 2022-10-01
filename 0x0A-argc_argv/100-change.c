@@ -12,6 +12,7 @@
 int coins_check(int cents)
 {
 	int coins = 0, a = 25, b = 10, c = 5, d = 2, e = 1;
+
 	while (cents > 0)
 	{
 		while (cents >= a)
