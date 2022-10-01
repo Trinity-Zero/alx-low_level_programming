@@ -15,7 +15,7 @@ int check_number(char *s)
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
-		if (!isdigit(s[1]))
+		if (!isdigit(s[i]))
 		{
 			check = 1;
 			break;
