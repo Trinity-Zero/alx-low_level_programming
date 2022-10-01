@@ -9,7 +9,7 @@
 * Return: Always zero
 */
 
-int main(int argc, int *argv[])
+int main(int argc, char *argv[])
 {
 	int a = 0, b = 0, mul = 0;
 
@@ -22,7 +22,7 @@ int main(int argc, int *argv[])
 		printf("%d\n", mul);
 	}
 	else
-		prinf("Error\n");
+		printf("Error\n");
 
 	return (0);
 }
