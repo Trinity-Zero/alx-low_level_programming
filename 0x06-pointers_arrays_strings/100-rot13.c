@@ -27,7 +27,7 @@ char *rot13(char *s)
 		while (rotA[i] != '\0' && s[j] != rotA[i])
 			i++;
 		if (s[j] == rotA[i])
-			s[j] == rotB[i];
+			s[j] = rotB[i];
 	}
 
 	return (s);
