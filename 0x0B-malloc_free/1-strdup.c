@@ -8,16 +8,16 @@
 * Return: Pointer or NULL if string is empty
 */
 
-char *_strdup(char *s)
+char *_strdup(char *str)
 {
 	int i = 0, length = 0;
 	char *ptr;
 
-	if (str == NULL)
+	if (ptr == NULL)
 		return (NULL);
 
 	while (str[length] != '\0')
-		lenght++;
+		length++;
 
 	ptr = malloc(sizeof(char) * (length + 1));
 
