@@ -48,6 +48,7 @@ int main(int argc, char *argv[])
 {
 	int mul = 0;
 	if (argc != 3)
+
 		print_error();
 
 	else if (is_digit(argv[1]) && is_digit(argv[2]))
