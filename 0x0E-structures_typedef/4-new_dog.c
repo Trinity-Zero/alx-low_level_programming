@@ -4,7 +4,8 @@
 #include <string.h>
 
 /**
-* new_dog - creates a new dog from structure dog_t* @name: name of new dog
+* new_dog - creates a new dog from structure dog_t
+* @name: name of new dog
 * @age: age of new dog
 * @owner: owner of the dog
 *
