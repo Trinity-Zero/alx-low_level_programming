@@ -1,4 +1,4 @@
-#include "funtion_pointers.c"
+#include "funtion_pointers.h"
 #include <stdio.h>
 
 /**
