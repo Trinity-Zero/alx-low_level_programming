@@ -7,7 +7,7 @@
 * Return: head node's data
 */
 
-int pop_listint(listp_t **head)
+int pop_listint(listint **head)
 {
 	int h_node;
 	listint_t *h;
