@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
-* binary_to_unit - converts binary to unsigned int* @b: pointer to binary characters
+* binary_to_unit -converts binary to unsigned int
+* @b: pointer to binary characters
 *
 * Return: the converted number, or 0
 */
